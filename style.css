@@ -24,11 +24,8 @@ body {
   height: 100vh;
   font-family: "Barlow", sans-serif;
   font-family: "Fraunces", serif;
-  display: flex;
   flex-direction: column;
 }
-
-
 
 .header-image {
   height: 538px;
@@ -130,7 +127,6 @@ li {
   left: 0;
   z-index: 1;
 }
-
 
 .main-section {
   display: flex;
@@ -450,7 +446,7 @@ footer svg {
     text-align: left;
   }
 
-  .contaier-1-content a:hover{
+  .contaier-1-content a:hover {
     width: 137px;
     height: 10px;
     background-color: var(--Yellow);
@@ -460,7 +456,7 @@ footer svg {
     align-items: flex-end;
   }
 
-  .section-two-container__2 a:hover{
+  .section-two-container__2 a:hover {
     width: 137px;
     height: 10px;
     background-color: var(--SoftRed);
@@ -537,7 +533,4 @@ footer svg {
     cursor: pointer;
     color: #ffffff;
   }
-
-
-
 }
